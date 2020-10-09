@@ -45,7 +45,7 @@ void keyPressed() {
 }
 
 void foodFunction() {
-  fill(random(255),random(255),random(255)); //food color red
+  fill(random(255),random(255),random(255));
   ellipse(foodPosx*construct+10, foodPosy*construct+10, construct, construct);
 }
 
