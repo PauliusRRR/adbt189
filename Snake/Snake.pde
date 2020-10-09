@@ -23,7 +23,8 @@ void draw()
 {  
   background(#CECE62);
   fill(#6C0A6B); 
-  for (int i = 0; i < x.size(); i++) rect(x.get(i)*construct, y.get(i)*construct, construct, construct);
+  for (int i = 0; i < x.size(); i++)
+  rect(x.get(i)*construct, y.get(i)*construct, construct, construct);
     if (!gameover) 
   {  
     foodFunction();
