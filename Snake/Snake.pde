@@ -51,7 +51,7 @@ void foodFunction() {
 
 void foodRespawn() {
   if (x.get(0)==foodPosx && y.get(0)==foodPosy) 
-  { //new food if we touch
+  { 
     if (x.size() %6==0 && snakeSpeed>=3) 
     snakeSpeed-=1;  
     foodPosx = (int)random(0, sizeWidth); 
